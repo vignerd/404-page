@@ -1,0 +1,169 @@
+.scarecrow {
+  position: absolute;
+  left: 11.73%;
+  right: 11.78%;
+  top: 11.49%;
+  bottom: 65.29%;
+  width: 287px;
+  height: 238px;
+}
+
+.header {
+  position: absolute;
+  width: 133px;
+  height: 25px;
+  left: 24px;
+  top: 20px;
+
+  font-family: "Inconsolata", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+.main-header {
+  position: absolute;
+  width: 350px;
+  height: 142px;
+  left: 24px;
+  top: 370px;
+
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+
+  color: #333333;
+}
+
+.secondary-header {
+  position: absolute;
+  width: 328px;
+  height: 81px;
+  left: 23px;
+  top: 579px;
+
+  font-family: monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+
+  color: #4f4f4f;
+}
+
+.back {
+  position: absolute;
+  width: 180px;
+  height: 68px;
+  left: 24px;
+  top: 726px;
+
+  background: #333333;
+
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.footer-text {
+  position: absolute;
+  width: 226px;
+  height: 17px;
+  left: 40%;
+  top: 130%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 50px;
+
+  color: #333333;
+}
+
+@media only screen and (min-width: 768px) {
+  .scarecrow {
+    position: absolute;
+    width: 540px;
+    height: 447px;
+    top: 265px;
+    left: 77px;
+  }
+
+  .main-header {
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+
+    font-family: monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+
+    color: #333333;
+  }
+
+  .secondary-header {
+    position: absolute;
+    width: 381;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+
+    font-family: monospace;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+
+    color: #4f4f4f;
+  }
+
+  .back {
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 663px;
+
+    background: #333333;
+  }
+
+  .footer-text {
+    position: absolute;
+    width: 226px;
+    height: 17px;
+    left: 45%;
+    top: 90%;
+
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 50px;
+
+    color: #333333;
+  }
+}
